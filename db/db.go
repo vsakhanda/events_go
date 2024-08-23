@@ -1,0 +1,62 @@
+package db
+
+import (
+	"userService/models"
+)
+
+var Users = []models.User{
+	{Id: 1,
+		Name:      "Vladimir",
+		Surname:   "Monomakh",
+		Nickname:  "Monomakh",
+		Phone:     "phone",
+		Email:     "email",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		StatusId:  "statusId",
+		Blocked:   true},
+	{Id: 2,
+		Name:      "Viktoria",
+		Surname:   "",
+		Nickname:  "Peremoga",
+		Phone:     "phone",
+		Email:     "email",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		StatusId:  "statusId",
+		Blocked:   true},
+	{Id: 3,
+		Name:      "Samson",
+		Surname:   "Solomon",
+		Nickname:  "Solomon",
+		Phone:     "phone",
+		Email:     "email",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		StatusId:  "statusId",
+		Blocked:   true},
+}
+
+var Performers = []models.Performer{
+	{Id: 1,
+		Name:      "Viktoria",
+		Surname:   "Peremokha",
+		Nickname:  "Viktoria",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		PhotoLink: ""},
+	{Id: 2,
+		Name:      "Oksana",
+		Surname:   "",
+		Nickname:  "SMM star",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		PhotoLink: ""},
+	{Id: 3,
+		Name:      "Olya",
+		Surname:   "Trainee",
+		Nickname:  "Trainee",
+		Instagram: "instagram",
+		Telegram:  "telegram",
+		PhotoLink: ""},
+}
